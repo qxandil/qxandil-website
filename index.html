@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <!-- Site Title -->
+    <title>Qxandil - Graphic Designer</title>
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="./assets/img/logo%20favicion.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/img/logo%20favicion.png" />
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon_gerold.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/backToTop.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Preloader Area Start -->
+    <div class="preloader">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="preloader-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Area End -->
+
+
+    <!-- start: Back To Top -->
+    <div class="progress-wrap" id="scrollUp">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- end: Back To Top -->
+
+    <!-- HEADER START -->
+    <header class="tj-header-area header-absolute">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap align-items-center">
+
+                    <div class="logo-box">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo1.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="header-info-list d-none d-md-inline-block">
+                        <ul class="ul-reset">
+                            <li><a href="mailto:mail@qxandilv.com">qxandilv@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#services-section">Services</a></li>
+                                <li><a href="#works-section">Works</a></li>
+                                <li><a href="#resume-section">Resume</a></li>
+                                <li><a href="#skills-section">Skills</a></li>
+                                <li><a href="#contact-section">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="header-button">
+                        <a href="#" id="openModal" class="btn tj-btn-primary">Hire me!</a>
+                    </div>
+
+                    <div class="menu-bar d-lg-none">
+                        <button>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="tj-header-area header-2 header-sticky sticky-out">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap align-items-center">
+
+                    <div class="logo-box">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo1.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="header-info-list d-none d-md-inline-block">
+                        <ul class="ul-reset">
+                            <li><a href="mailto:mail@qxandilv.com">qxandilv@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#services-section">Services</a></li>
+                                <li><a href="#works-section">Works</a></li>
+                                <li><a href="#resume-section">Resume</a></li>
+                                <li><a href="#skills-section">Skills</a></li>
+                                <li><a href="#contact-section">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="header-button">
+                        <a href="#" id="openModal" class="btn tj-btn-primary">Hire me!</a>
+                    </div>
+
+                    <div class="menu-bar d-lg-none">
+                        <button>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const modal = document.getElementById("hireMeModal");
+            const openModalBtn = document.getElementById("openModal");
+            const closeModal = document.querySelector(".close");
+        
+            // Ensure modal is hidden on page load
+            modal.style.display = "none";
+        
+            // Open Modal when clicking "Hire Me"
+            openModalBtn.addEventListener("click", function(event) {
+                event.preventDefault(); // Prevents page refresh
+                modal.style.display = "flex"; // Show modal
+                document.querySelector(".modal-content").classList.add("show");
+            });
+        
+            // Close Modal when clicking "X"
+            closeModal.addEventListener("click", function() {
+                modal.style.display = "none";
+                document.querySelector(".modal-content").classList.remove("show");
+            });
+        
+            // Close Modal when clicking outside the popup
+            window.addEventListener("click", function(event) {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                    document.querySelector(".modal-content").classList.remove("show");
+                }
+            });
+        });
+        </script>
+        
+
+    <main class="site-content" id="content">
+        <!-- HERO SECTION START -->
+        <section class="hero-section d-flex align-items-center" id="intro">
+            <div class="intro_text">
+                <svg viewBox="0 0 1320 300">
+                    <text x="50%" Y="50%" text-anchor="middle">
+                        HI
+                    </text>
+                </svg>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="hero-content-box">
+                            <span class="hero-sub-title wow fadeInLeft" data-wow-delay="1.1s">Basel Mostafa</span>
+                            <h1 class="hero-title wow fadeInLeft" data-wow-delay="1.2s">Graphic Designer<br>Illustration
+                            </h1>
+
+                            <div class="hero-image-box d-md-none text-center wow fadeInRight" data-wow-delay="1.3s">
+                                <img src="assets/img/hero/basel1.jpg" alt="">
+                            </div>
+
+                            <p class="lead wow fadeInLeft" data-wow-delay="1.4s">I’m passionate about collaborating with clients to create designs that are not only visually appealing but also achieve their business goals. I’m always learning and experimenting with new design techniques to keep my work fresh and innovative.I have much experience in designing Business cards, Letterheads, Logos, and Flyers. I use Adobe Illustrator and Adobe Photoshop to design the graphics for you.</p>
+                            <div class="button-box d-flex flex-wrap align-items-center">
+                                <a href="https://drive.google.com/file/d/1GoHctKT0AA6cgE2aLYFcku9V_ZL2t2yX/view" class="btn tj-btn-secondary wow fadeInLeft" data-wow-delay="1.5s">Download
+                                    CV</a>
+                                <ul class="ul-reset social-icons wow fadeInLeft" data-wow-delay="1.6s">
+                                    <li><a href="https://www.instagram.com/qxandil/"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://wa.me/+201020169791"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                    <li><a href="https://www.behance.net/baselsaviola"><i class="fa-brands fa-behance"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/qxandil/"><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <div class="hero-image-box text-center wow fadeInRight" data-wow-delay="1.5s">
+                            <img src="assets/img/hero/basel1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="funfact-area">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
+                                <div class="number"><span class="odometer" data-count="4">0</span></div>
+                                <div class="text">Years of <br>Experience</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
+                                <div class="number"><span class="odometer" data-count="200">0</span>+</div>
+                                <div class="text">Project <br>Completed</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
+                                <div class="number"><span class="odometer" data-count="100">0</span>+</div>
+                                <div class="text">Happy <br>Clients</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HERO SECTION END -->
+
+        <!-- SERVICES SECTION START -->
+        <section class="services-section" id="services-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center">
+                            <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">My Quality Services</h2>
+                            <p class=" wow fadeInUp" data-wow-delay=".4s">We put your ideas and thus your wishes in the
+                                form
+                                of a unique web project that inspires you
+                                and you customers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="services-widget position-relative">
+                            <div class="service-item current d-flex flex-wrap align-items-center wow fadeInUp"
+                                data-wow-delay=".5s">
+                                <div class="left-box d-flex flex-wrap align-items-center">
+                                    <span class="number">01</span>
+                                    <h3 class="service-title">Branding Design</h3>
+                                </div>
+                                <div class="right-box">
+                                    <p>Get the brand expertise you need, however you need it, from brand development to custom branding solutions.</p>
+                                </div>
+                                <i class="flaticon-up-right-arrow"></i>
+                                <button data-mfp-src="#service-wrapper1" class="service-link modal-popup"></button>
+                            </div>
+                            <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp"
+                                data-wow-delay=".6s">
+                                <div class="left-box d-flex flex-wrap align-items-center">
+                                    <span class="number">02</span>
+                                    <h3 class="service-title">Social Media Design</h3>
+                                </div>
+                                <div class="right-box">
+                                    <p>Enhance your social media presence and capture attention with Superside's tailored social media creative services.</p>
+                                </div>
+                                <i class="flaticon-up-right-arrow"></i>
+                                <button data-mfp-src="#service-wrapper2" class="service-link modal-popup"></button>
+                            </div>
+                            <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp"
+                                data-wow-delay=".7s">
+                                <div class="left-box d-flex flex-wrap align-items-center">
+                                    <span class="number">03</span>
+                                    <h3 class="service-title">Illustration Design</h3>
+                                </div>
+                                <div class="right-box">
+                                    <p>Get custom, on-brand illustrations for your business or marketing efforts that act as an extension of your company.</p>
+                                </div>
+                                <i class="flaticon-up-right-arrow"></i>
+                                <button data-mfp-src="#service-wrapper3" class="service-link modal-popup"></button>
+                            </div>
+                            <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp"
+                                data-wow-delay=".8s">
+                                <div class="left-box d-flex flex-wrap align-items-center">
+                                    <span class="number">04</span>
+                                    <h3 class="service-title">Packaging/Merch Design</h3>
+                                </div>
+                                <div class="right-box">
+                                    <p>Get on-brand apparel, merchandise, or packaging designs for your business or product to stand out from the crowd.</p>
+                                </div>
+                                <i class="flaticon-up-right-arrow"></i>
+                                <button data-mfp-src="#service-wrapper4" class="service-link modal-popup"></button>
+                            </div>
+                            <div class="active-bg wow fadeInUp" data-wow-delay=".5s"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICES SECTION END -->
+
+        <!-- start: Service 1 Popup -->
+        <div id="service-wrapper1" class="popup_content_area zoom-anim-dialog mfp-hide">
+            <div class="popup_modal_img">
+                <img src="./assets/img/services/SS.png" alt="">
+            </div>
+
+            <div class="popup_modal_content">
+                <div class="service_details">
+                    <div class="row">
+                        <div class="col-lg-7 col-xl-8">
+                            <div class="service_details_content">
+                                <div class="service_info">
+                                    <h6 class="subtitle">SERVICES</h6>
+                                    <h2 class="title">Branding Design;</h2>
+                                    <div class="desc">
+                                        <p>I specialize in creating unique and memorable brand identities that help businesses stand out in competitive markets. With a passion for storytelling through design, I collaborate closely with clients to understand their values, goals, and target audience.</p>
+
+                                        <p>From crafting distinctive logos to developing comprehensive brand guidelines, my approach is rooted in creativity and strategic thinking. Whether you're a startup looking to establish a strong brand presence or an established business seeking a fresh identity, I am committed to delivering personalized and impactful design solutions. Browse through my portfolio to see how I've helped various clients achieve visual identities that resonate and endure."</p>
+
+                                        <p>From initial concept to final execution, our branding design service is dedicated to delivering compelling visual identities that leave a lasting impression.</p>
+                                    </div>
+
+                                    <h3 class="title">Services Process</h3>
+                                    <div class="desc">
+                                        <p>My service process involves thorough client collaboration, from initial consultation and concept development to iterative refinement, ensuring the final deliverables align perfectly with your brand vision and objectives.</p>
+                                    </div>
+                                    <ul>
+                                        <li>Initial Consultation and Briefing</li>
+                                        <li>Research and Inspiration Gathering</li>
+                                        <li>Concept Development</li>
+                                        <li>Design Refinement</li>
+                                        <li>Presentation and Feedback</li>
+                                        <li>Finalization and Delivery</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-xl-4">
+                            <div class="tj_main_sidebar">
+                                <div class="sidebar_widget services_list">
+                                    <div class="widget_title">
+                                        <h3 class="title">All Services</h3>
+                                    </div>
+                                    <ul>
+                                        <li class="active">
+                                        <button data-mfp-src="#service-wrapper1" class="modal-popup">
+                                                <i class="flaticon-design"></i>
+                                                Branding Design
+                                            </button>
+                                        </li>
+                                        <li>
+                                        <button data-mfp-src="#service-wrapper2" class="modal-popup">
+                                                <i class="flaticon-3d-movie"></i>
+                                                Social Media Design
+                                            </button>
+                                        </li>
+                                        <li>
+                                        <button data-mfp-src="#service-wrapper3" class="modal-popup">
+                                                <i class="flaticon-ux-design"></i>
+                                                Illustration Design
+                                            </button>
+                                        </li>
+                                        <li>
+                                        <button data-mfp-src="#service-wrapper4" class="modal-popup">
+                                                <i class="flaticon-web-design"></i>
+                                                Packaging &amp; Merch Design
+                                            </button>
+                                        </li>
+                                        <li>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="sidebar_widget contact_form">
+                                    <div class="widget_title">
+                                        <h3 class="title">Get in Touch</h3>
+                                    </div>
+
+                                    <form action="index.html">
+                                        <div class="form_group">
+                                            <input type="text" name="name" id="name" placeholder="Name"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="form_group">
+                                            <input type="email" name="semail" id="semail" placeholder="Email"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="form_group">
+                                            <textarea name="smessage" id="smessage" placeholder="Your message"
+                                                autocomplete="off"></textarea>
+                                        </div>
+                                        <div class="form_btn">
+                                            <button class="btn tj-btn-primary" type="submit">Send Message</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Service Popup -->
+        
+        <!-- Service 2 Popup -->
+<div id="service-wrapper2" class="popup_content_area zoom-anim-dialog mfp-hide">
+    <div class="popup_modal_img">
+        <img src="./assets/img/services/ads.png" alt="">
+    </div>
+
+    <div class="popup_modal_content">
+        <div class="service_details">
+            <div class="row">
+                <div class="col-lg-7 col-xl-8">
+                    <div class="service_details_content">
+                        <div class="service_info">
+                            <h6 class="subtitle">Social Media Design</h6>
+                            <h2 class="title">Social Media Design</h2>
+                            <div class="desc">
+                                <div>
+  <p>Elevate your online presence with captivating social media designs tailored to your brand. As a freelance graphic designer specializing in social media, I offer a range of services to help your business shine across platforms:</p>
+  <ul>
+    <li>Custom Graphics: Eye-catching visuals designed to stop the scroll and engage your audience.</li>
+    <li>Branding Elements: Consistent brand representation through logos, color schemes, and visual identity.</li>
+    <li>Cover Art: Professionally crafted cover photos that make a lasting first impression.</li>
+    <li>Promotional Material: Creative advertisements and promotional graphics to boost your campaigns.</li>
+    <li>Infographics: Informative and visually appealing graphics to convey complex information effortlessly.</li>
+    <li>Content Templates: Easily editable templates for posts, stories, and ads, maintaining brand consistency.</li>
+  </ul>
+</div>
+                            </div>
+
+                            <h3 class="title">Social Media Design Process</h3>
+                            <div class="desc">
+                                <p>My social media design service process involves a thorough initial client consultation where I delve into understanding your business goals, target audience demographics, brand identity nuances, and specific design preferences, followed by meticulous research and inspiration gathering, where I analyze industry trends, study competitor strategies, and draw from diverse sources to inform the creative direction; next, I embark on concept development, brainstorming innovative ideas and translating them into sketches, mood boards, or rough drafts to visualize initial concepts; then, using advanced graphic design tools such as Adobe Creative Suite, I meticulously craft high-quality visuals including custom graphics, branding elements, striking cover art, informative infographics, and versatile content templates that align seamlessly with your brand's visual identity; throughout the process, I ensure client involvement and feedback, presenting initial designs for review and refining them based on your input to ensure they meet and exceed your expectations; finally, I focus on finalizing approved designs with attention to detail, ensuring all elements are polished and cohesive, and deliver the finalized files in your preferred formats promptly, ensuring a seamless experience from concept to completion.</p>
+                            </div>
+                            <ul>
+                                <li>Client Consultation and Briefing</li>
+                                <li>Research and Inspiration Gathering</li>
+                                <li>Concept Development</li>
+                                <li>Design Creation</li>
+                                <li>Feedback and Revisions</li>
+                                <li>Finalization and Delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-4">
+                    <div class="tj_main_sidebar">
+                        <div class="sidebar_widget services_list">
+                            <div class="widget_title">
+                                <h3 class="title">All Services</h3>
+                            </div>
+                            <ul>
+                                <li>
+                                    <button data-mfp-src="#service-wrapper1" class="modal-popup">
+                                        <i class="flaticon-design"></i>
+                                        Branding Design
+                                    </button>
+                                </li>
+                                <li class="active">
+                                   <button data-mfp-src="#service-wrapper2" class="modal-popup">
+                                        <i class="flaticon-3d-movie"></i>
+                                        Social Media Design
+                                    </button>
+                                </li>
+                                <li>
+                                    <button data-mfp-src="#service-wrapper3" class="modal-popup">
+                                        <i class="flaticon-ux-design"></i>
+                                        Illustration Design
+                                    </button>
+                                </li>
+                                <li>
+                                    <button data-mfp-src="#service-wrapper4" class="modal-popup">
+                                        <i class="flaticon-web-design"></i>
+                                        Packaging/Merch Design
+                                    </button>
+                                </li>
+                                <li>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar_widget contact_form">
+                            <div class="widget_title">
+                                <h3 class="title">Get in Touch</h3>
+                            </div>
+
+                            <form action="index.html">
+                                <div class="form_group">
+                                    <input type="text" name="name" id="name" placeholder="Name" autocomplete="off">
+                                </div>
+                                <div class="form_group">
+                                    <input type="email" name="semail" id="semail" placeholder="Email"
+                                        autocomplete="off">
+                                </div>
+                                <div class="form_group">
+                                    <textarea name="smessage" id="smessage" placeholder="Your message"
+                                        autocomplete="off"></textarea>
+                                </div>
+                                <div class="form_btn">
+                                    <button class="btn tj-btn-primary" type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: Service 2 Popup -->
+
+        <!-- Service 3 Popup -->
+<div id="service-wrapper3" class="popup_content_area zoom-anim-dialog mfp-hide">
+    <div class="popup_modal_img">
+        <img src="./assets/img/services/deee1.jpg" alt="">
+    </div>
+
+    <div class="popup_modal_content">
+        <div class="service_details">
+            <div class="row">
+                <div class="col-lg-7 col-xl-8">
+                    <div class="service_details_content">
+                        <div class="service_info">
+                            <h6 class="subtitle">Illustration Design</h6>
+                            <h2 class="title">Illustration Design</h2>
+                            <div class="desc">
+                                <div>
+  <p>Transform your ideas into captivating visuals with my bespoke illustration design services. As a freelance graphic designer specializing in illustration, I offer a range of creative solutions to bring your concepts to life with artistic flair and precision.</p>
+  <ul>
+    <li>Custom Illustrations: Tailored illustrations crafted to reflect your unique vision and brand identity, whether it's for editorial, advertising, or personal projects.</li>
+    <li>Character Design: From concept sketches to fully realized characters, I create memorable and expressive characters that resonate with your audience.</li>
+    <li>Digital Artwork: Vibrant and detailed digital artworks suitable for websites, social media, and print materials, ensuring your visuals stand out in the digital landscape.</li>
+    <li>Vector Illustrations: Scalable vector illustrations perfect for logos, icons, infographics, and other applications requiring crisp, clear lines and versatility.
+
+</li>
+    <li>Storyboarding: Visual storytelling through comprehensive storyboards, ideal for animations, videos, or sequential art projects.</li>
+  </ul>
+</div>
+                            </div>
+
+                            <h3 class="title">Illustration Design Process</h3>
+                            <div class="desc">
+                                <p>From initial consultation to final delivery, I provide tailored illustration design services, ensuring each project reflects client vision and achieves high-quality visual impact. </p>
+                            </div>
+                            <ul>
+                                <li>Client Consultation: Understand client needs, style preferences, and project scope.</li>
+                                <li>Concept Development: Brainstorm ideas, create drafts, and refine concepts.</li>
+                                <li>Detailed Illustration: Craft high-quality illustrations aligned with client feedback.</li>
+                                <li>Revision and Refinement: Incorporate client feedback for final adjustments.</li>
+                                <li>Finalization and Delivery: Prepare and deliver polished illustrations in required formats.</li>
+                                <li>Post-Delivery Support: Offer assistance with implementation and additional services as needed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-4">
+                    <div class="tj_main_sidebar">
+                        <div class="sidebar_widget services_list">
+                            <div class="widget_title">
+                                <h3 class="title">All Services</h3>
+                            </div>
+                            <ul>
+                                <li>
+                                    <button data-mfp-src="#service-wrapper1" class="modal-popup">
+                                        <i class="flaticon-design"></i>
+                                        Branding Design
+                                    </button>
+                                </li>
+                                <li>
+                                   <button data-mfp-src="#service-wrapper2" class="modal-popup">
+                                        <i class="flaticon-3d-movie"></i>
+                                        Social Media Design
+                                    </button>
+                                </li>
+                                <li class="active">
+                                    <button data-mfp-src="#service-wrapper3" class="modal-popup">
+                                        <i class="flaticon-ux-design"></i>
+                                        Illustration Design
+                                    </button>
+                                </li>
+                                <li>
+                                    <button data-mfp-src="#service-wrapper4" class="modal-popup">
+                                        <i class="flaticon-web-design"></i>
+                                        Packaging/Merch Design
+                                    </button>
+                                </li>
+                                <li>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar_widget contact_form">
+                            <div class="widget_title">
+                                <h3 class="title">Get in Touch</h3>
+                            </div>
+
+                            <form action="index.html">
+                                <div class="form_group">
+                                    <input type="text" name="name" id="name" placeholder="Name" autocomplete="off">
+                                </div>
+                                <div class="form_group">
+                                    <input type="email" name="semail" id="semail" placeholder="Email"
+                                        autocomplete="off">
+                                </div>
+                                <div class="form_group">
+                                    <textarea name="smessage" id="smessage" placeholder="Your message"
+                                        autocomplete="off"></textarea>
+                                </div>
+                                <div class="form_btn">
+                                    <button class="btn tj-btn-primary" type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: Service 3 Popup -->
+        
+        <!-- Service 3 Popup -->
+<div id="service-wrapper4" class="popup_content_area zoom-anim-dialog mfp-hide">
+    <div class="popup_modal_img">
+        <img src="./assets/img/services/adawd.png" alt="">
+    </div>
+
+    <div class="popup_modal_content">
+        <div class="service_details">
+            <div class="row">
+                <div class="col-lg-7 col-xl-8">
+                    <div class="service_details_content">
+                        <div class="service_info">
+                            <h6 class="subtitle">Packaging &amp; Merch Design</h6>
+                            <h2 class="title">Packaging &amp; Merch Design</h2>
+                            <div class="desc">
+                                <div>
+  <p>Elevate your product's appeal with captivating packaging and merchandising designs crafted to resonate with your target audience. As a freelance graphic designer specializing in packaging and merch design, I offer creative solutions that blend aesthetic excellence with strategic brand storytelling.</p>
+  <ul>
+    <li>Custom Packaging Design: Tailored packaging solutions that not only protect your product but also communicate its unique value through innovative design and materials.</li>
+    <li>Merchandise Design: From apparel and accessories to promotional items, I create visually appealing merch designs that reinforce brand identity and captivate consumers.</li>
+    <li>Label and Tag Design: Designing eye-catching labels and tags that enhance product visibility and convey essential information effectively.</li>
+    <li>Brand Consistency: Ensuring coherence across packaging and merch designs to strengthen brand recognition and customer loyalty.
+</li>
+    <li>Prototype Development: Collaborating closely to prototype designs and ensure they meet functional requirements while maintaining aesthetic integrity.</li>
+      <li>Production Support: Guiding through the production process to ensure designs are faithfully realized and delivered on time and within budget.</li>
+  </ul>
+</div>
+                            </div>
+
+                            <h3 class="title">Packaging &amp; Merch Design Process</h3>
+                            <div class="desc">
+                                <p>Comprehensive packaging and merch design services tailored to enhance product appeal through strategic brand storytelling and aesthetic excellence.</p>
+                            </div>
+                            <ul>
+                                <li>Consultation and Research</li>
+                                <li>Concept Development</li>
+                                <li>Design Iteration and Refinement</li>
+                                <li>Prototyping and Testing</li>
+                                <li>Final Design and Production</li>
+                                <li>Delivery and Implementation</li>
+                                <li>Post-Launch Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-4">
+                    <div class="tj_main_sidebar">
+                        <div class="sidebar_widget services_list">
+                            <div class="widget_title">
+                                <h3 class="title">All Services</h3>
+                            </div>
+                            <ul>
+                                <li>
+                                    <button data-mfp-src="#service-wrapper1" class="modal-popup">
+                                        <i class="flaticon-design"></i>
+                                        Branding Design
+                                    </button>
+                                </li>
+                                <li>
+                                    <button data-mfp-src="#service-wrapper2" class="modal-popup">
+                                        <i class="flaticon-3d-movie"></i>
+                                        Social Media Design
+                                    </button>
+                                </li>
+                                <li>
+                                    <button data-mfp-src="#service-wrapper3" class="modal-popup">
+                                        <i class="flaticon-ux-design"></i>
+                                        Illustration Design
+                                    </button>
+                                </li>
+                                <li>
+                                    <li class="active">
+                                    <button data-mfp-src="#service-wrapper4" class="modal-popup">
+                                        <i class="flaticon-web-design"></i>
+                                        Packaging/Merch Design
+                                    </button>
+                                </li>
+                                <li>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar_widget contact_form">
+                            <div class="widget_title">
+                                <h3 class="title">Get in Touch</h3>
+                            </div>
+
+                            <form action="index.html">
+                                <div class="form_group">
+                                    <input type="text" name="name" id="name" placeholder="Name" autocomplete="off">
+                                </div>
+                                <div class="form_group">
+                                    <input type="email" name="semail" id="semail" placeholder="Email"
+                                        autocomplete="off">
+                                </div>
+                                <div class="form_group">
+                                    <textarea name="smessage" id="smessage" placeholder="Your message"
+                                        autocomplete="off"></textarea>
+                                </div>
+                                <div class="form_btn">
+                                    <button class="btn tj-btn-primary" type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: Service 3 Popup -->
+        
+        <!-- PORTFOLIO SECTION START -->
+        <section class="portfolio-section" id="works-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center">
+                            <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">My Recent Works</h2>
+                            <p class=" wow fadeInUp" data-wow-delay=".4s">Explore a showcase of my recent graphic design works, highlighting creative solutions tailored to elevate brand identities and captivate audiences.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portfolio-filter text-center wow fadeInUp" data-wow-delay=".5s">
+                            <div class="button-group filter-button-group">
+                                <button data-filter="*" class="active">All</button>
+                                <button data-filter=".branding">Branding</button>
+                                <button data-filter=".logos">Logos</button>
+                                <button data-filter=".mobile-app">Apps</button>
+                                <div class="active-bg"></div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-box wow fadeInUp" data-wow-delay=".6s">
+                            <div class="portfolio-sizer"></div>
+                            <div class="gutter-sizer"></div>
+                            <div class="portfolio-item branding">
+                                <div class="image-box">
+                                    <img src="assets/img/portfolio/fdsaq.png" alt="">
+                                </div>
+                                <div class="content-box">
+                                    <h3 class="portfolio-title">Elvive</h3>
+                                    <p>Crafted with love, enjoyed with delight.</p>
+                                    <i class="flaticon-up-right-arrow"></i>
+                                    <button data-mfp-src="#portfolio-wrapper1"
+                                        class="portfolio-link modal-popup"></button>
+                                </div>
+                            </div>
+                            <div class="portfolio-item uxui">
+                                <div class="image-box">
+                                    <img src="assets/img/portfolio/1sfdsf.png" alt="">
+                                </div>
+                                <div class="content-box">
+                                    <h3 class="portfolio-title">Mazag Coffee</h3>
+                                    <p>Mazag Coffee – Fuel Your Mood.</p>
+                                    <i class="flaticon-up-right-arrow"></i>
+                                    <button data-mfp-src="#portfolio-wrapper2"
+                                        class="portfolio-link modal-popup"></button>
+                                </div>
+                            </div>
+                            <div class="portfolio-item mobile-app">
+                                <div class="image-box">
+                                    <img src="assets/img/portfolio/rave.jpg" alt="">
+                                </div>
+                                <div class="content-box">
+                                    <h3 class="portfolio-title">Rave</h3>
+                                    <p>RAVE: Where Style Meets Energy.</p>
+                                    <i class="flaticon-up-right-arrow"></i>
+                                    <button data-mfp-src="#portfolio-wrapper3"
+                                        class="portfolio-link modal-popup"></button>
+                                </div>
+                            </div>
+                            <div class="portfolio-item branding">
+                                <div class="image-box">
+                                    <img src="assets/img/portfolio/postr1.png" alt="">
+                                </div>
+                                <div class="content-box">
+                                    <h3 class="portfolio-title">Posters Design</h3>
+                                    <p>Designing the Future, One Pixel at a Time.</p>
+                                    <i class="flaticon-up-right-arrow"></i>
+                                    <button data-mfp-src="#portfolio-wrapper4"
+                                        class="portfolio-link modal-popup"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PORTFOLIO SECTION END -->
+
+        <!-- start: Portfolio Popup -->
+        <div id="portfolio-wrapper1" class="popup_content_area zoom-anim-dialog mfp-hide">
+            <div class="popup_modal_img">
+                <img src="./assets/img/portfolio/fdsaq.png" alt="">
+            </div>
+
+            <div class="popup_modal_content">
+                <div class="portfolio_info">
+                    <div class="portfolio_info_text">
+                        <h2 class="title">Elvive</h2>
+                        <div class="desc">
+                            <p>A creative Photoshop project where I reimagined an Elvive shampoo ad from scratch. The most challenging parts were achieving realistic reflections, shadows, and light interactions, ensuring a natural and polished look. This design pushed my manipulation skills, taking [X hours] to perfect every detail.</p>
+                        </div>
+                        <a href="#" class="btn tj-btn-primary">live preview <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <div class="portfolio_info_items">
+                        <div class="info_item">
+                            <div class="key">Category</div>
+                            <div class="value">Manipulation Projects</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Client</div>
+                            <div class="value">Vofex Studio</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Start Date</div>
+                            <div class="value">January 18, 2025</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Designer</div>
+                            <div class="value"><a href="#">qxandil</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_gallery owl-carousel">
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/e1.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/e2w.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/e4.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/EB1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="portfolio_description">
+                    <h2 class="title">Project Description</h2>
+                    <div class="desc">
+                        <p>This project was a creative exploration where I reimagined an Elvive shampoo advertisement purely from my own vision, without any client request. Using Adobe Photoshop, I focused on advanced photo manipulation, lighting, and composition techniques to bring the concept to life.</p>
+
+                        <p>The most challenging aspects were achieving realistic reflections and shadows, ensuring the bottle and surrounding elements felt naturally integrated within the scene. The precision required for light interaction, material texture adjustments, and depth perception made this a demanding yet rewarding process.</p>
+                        <p>This piece took me [19 hours] to complete, pushing my Photoshop skills to new heights as I meticulously fine-tuned every detail to create a polished and high-impact visual.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">The story</h4>
+                        </div>
+                        <div class="story_content">
+                            <p>The idea for the Elvive Shampoo Manipulation Design came to me one evening when I was reflecting on how beauty product advertisements blend realism and creativity. I wanted to challenge myself by creating a high-end, visually striking shampoo ad, capturing the essence of luxury and elegance associated with brands like Elvive. The image in my mind was of a shampoo bottle surrounded by water droplets and soft lighting, all balanced with perfect reflections and shadows.</p>
+                            <p>I began by sourcing a high-quality image of the Elvive bottle and isolated it, focusing on the key elements that would make it stand out. The first challenge was achieving the perfect reflections on the bottle’s glossy surface. I spent hours tweaking the light source to ensure it interacted with the bottle naturally, creating realistic highlights and reflections. This part required patience and a keen eye for detail to ensure the product looked believable.</p>
+                            <p>Once the reflections were set, I worked on the shadows. Creating the right depth and balance between light and dark areas was essential for the design’s realism. The shadows had to complement the light source, so I spent time adjusting their softness and intensity. I also added background elements and textures, layering them carefully to build an atmosphere that complemented the product without distracting from the main focus.</p>
+                            <p>After refining every detail—from the lighting and reflections to the water droplets and background textures—I stepped back to assess the final result. The piece felt polished and sophisticated, just as I had envisioned. This project was not only a test of my manipulation skills but also a creative journey, pushing me to explore new techniques and bring a simple product ad to life with a fresh perspective.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio_approach">
+                        <div class="approach_title">
+                            <h4 class="title">OUR APPROACH</h4>
+                        </div>
+                        <div class="approach_content">
+                            <p>In this design, we focused on blending realism with creativity, aiming to capture the luxury and elegance of Elvive shampoo. Through meticulous photo manipulation, we paid close attention to every detail—achieving perfect reflections, shadows, and lighting. Our approach involved carefully crafting each element, from the bottle's glossy surface to the surrounding atmosphere, ensuring everything felt naturally integrated. The result is a polished, high-end visual that not only highlights the product but also elevates it through thoughtful design.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_navigation">
+                    <div class="navigation_item prev-project">
+                        <a href="#" class="project">
+                            <i class="fal fa-arrow-left"></i>
+                            <div class="nav_project">
+                                <div class="label">Previous Project</div>
+                                <h3 class="title">Posters Design</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="navigation_item next-project">
+                        <a href="#" class="project">
+                            <div class="nav_project">
+                                <div class="label">Next Project</div>
+                                <h3 class="title">Mazag Coffee</h3>
+                            </div>
+                            <i class="fal fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Portfolio Popup -->
+
+        <!-- start: Portfolio Popup -->
+        <div id="portfolio-wrapper2" class="popup_content_area zoom-anim-dialog mfp-hide">
+            <div class="popup_modal_img">
+                <img src="./assets/img/portfolio/mazagthumb2.png" alt="">
+            </div>
+
+            <div class="popup_modal_content">
+                <div class="portfolio_info">
+                    <div class="portfolio_info_text">
+                        <h2 class="title">Mazag Coffee</h2>
+                        <div class="desc">
+                            <p>I had the privilege of crafting the visual identity for Mazag Coffee, a brand that celebrates the perfect blend of quality and mood. My work involved creating a cohesive design language that reflects the rich, bold flavors of the coffee while connecting with the energetic and vibrant spirit of its audience. From logo design to packaging and promotional materials, every element was meticulously designed to capture the essence of Mazag Coffee and enhance the customer experience.</p>
+                        </div>
+                        <a href="#" class="btn tj-btn-primary">live preview <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <div class="portfolio_info_items">
+                        <div class="info_item">
+                            <div class="key">Category</div>
+                            <div class="value">Branding</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Client</div>
+                            <div class="value">Mazag Coffee</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Start Date</div>
+                            <div class="value">March 4, 2024</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Designer</div>
+                            <div class="value"><a href="#">qxandil</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_gallery owl-carousel">
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/mazagp1.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/mazagp2.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/mazagp3.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/mazagp4.png" alt="">
+                    </div>
+                </div>
+
+                <div class="portfolio_description">
+                    <h2 class="title">Project Description</h2>
+                    <div class="desc">
+                        <p>As the lead graphic designer for Mazag Coffee, I was tasked with developing a complete visual identity that would represent the essence of the brand—energizing, vibrant, and bold. The project included designing the logo, packaging, and promotional materials that would resonate with coffee lovers and reflect the premium quality of the product. Drawing inspiration from the rich aroma and the energetic impact of a great cup of coffee, I created a design language that conveys both sophistication and approachability. The result is a brand that speaks to the mood and lifestyle of its audience, offering a unique visual experience that enhances the enjoyment of every sip.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">The story</h4>
+                        </div>
+                        <div class="story_content">
+                            <p>For this project, I created a dynamic visual for Mazag Coffee, placing the coffee package in the middle of a lush green jungle surrounded by playful squirrels. Using Adobe Photoshop, I blended high-quality jungle images with the coffee package, adjusting shadows and lighting to match the natural environment. I carefully positioned the squirrels to interact with the scene, adding energy and life to the composition. The final image was enhanced with light rays and color adjustments to evoke a sense of freshness and vitality, reflecting the invigorating essence of Mazag Coffee in a vibrant, natural setting.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portfolio_approach">
+                        <div class="approach_title">
+                            <h4 class="title">OUR APPROACH</h4>
+                        </div>
+                        <div class="approach_content">
+                            <p>At Mazag Coffee, we focus on creating a visual identity that resonates with the essence of freshness, energy, and quality. Our approach blends bold, vibrant designs with a deep connection to nature, capturing the spirit of the brand. Through carefully crafted packaging, dynamic imagery, and thoughtful design elements, we aim to reflect the invigorating experience of Mazag Coffee in every detail, ensuring each visual tells a story that engages and excites the audience.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_navigation">
+                    <div class="navigation_item prev-project">
+                        <a href="#" class="project">
+                            <i class="fal fa-arrow-left"></i>
+                            <div class="nav_project">
+                                <div class="label">Previous Project</div>
+                                <h3 class="title">Elvive</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="navigation_item next-project">
+                        <a href="#" class="project">
+                            <div class="nav_project">
+                                <div class="label">Next Project</div>
+                                <h3 class="title">Rave</h3>
+                            </div>
+                            <i class="fal fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Portfolio Popup -->
+        
+         <!-- start: Portfolio Popup -->
+        <div id="portfolio-wrapper3" class="popup_content_area zoom-anim-dialog mfp-hide">
+            <div class="popup_modal_img">
+                <img src="./assets/img/portfolio/ra1.jpg" alt="">
+            </div>
+
+            <div class="popup_modal_content">
+                <div class="portfolio_info">
+                    <div class="portfolio_info_text">
+                        <h2 class="title">Rave</h2>
+                        <div class="desc">
+                            <p>Rave is a vibrant and edgy clothing brand that celebrates individuality and self-expression through bold designs and innovative fashion statements. Catering to the youth and young adults, Rave embraces the spirit of creativity and freedom, offering a diverse range of apparel and accessories that resonate with the dynamic and energetic lifestyle of its target audience.</p>
+                        </div>
+                        <a href="#" class="btn tj-btn-primary">live preview <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <div class="portfolio_info_items">
+                        <div class="info_item">
+                            <div class="key">Category</div>
+                            <div class="value">Branding</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Client</div>
+                            <div class="value">Albert Choire</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Start Date</div>
+                            <div class="value">Sep 11, 2023</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Designer</div>
+                            <div class="value"><a href="#">qxandil</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_gallery owl-carousel">
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/rav1.jpg" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/rav2.jpg" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/rav3.jpg" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/rav4.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="portfolio_description">
+                    <h2 class="title">Project Description</h2>
+                    <div class="desc">
+                        <p>I had the privilege to create a compelling brand identity for 'Encore Of Chaos,' a dynamic clothing brand that celebrates individuality and bold expression. Inspired by the brand's ethos of embracing chaos as a form of creative liberation, I embarked on a journey to craft a visual identity that resonates with adventurous spirits and fashion-forward enthusiasts.
+
+The project began with extensive research into the brand's personality, target audience, and market positioning. Collaborative discussions with the client unearthed key insights that guided the creative direction—fusing elements of rebellion, sophistication, and contemporary edge.
+
+Central to the brand identity is the logo design, meticulously crafted to embody the essence of 'Encord Of Chaos.' It combines sleek typography with abstract elements that symbolize the brand's commitment to breaking norms and celebrating diversity. The color palette, bold and vibrant, reflects the brand's energy and eclectic spirit, appealing directly to its young, trendsetting demographic.
+
+Beyond the logo, I developed cohesive brand assets including typography styles, patterns, and visual elements that amplify the brand's narrative across various touchpoints. From clothing tags to digital marketing materials, each design element was strategically aligned to reinforce the brand's identity and captivate its audience.
+
+Throughout the project, I maintained a focus on versatility and scalability, ensuring the brand identity could adapt seamlessly to diverse applications and future growth. This included comprehensive guidelines that empower the client to maintain brand consistency and integrity across all communications.
+
+The result is a distinctive brand identity that not only embodies the rebellious spirit of 'Encord Of Chaos' but also empowers individuals to express themselves boldly through fashion. It has been a privilege to contribute to a brand that champions creativity, individuality, and the pursuit of chaos as a catalyst for innovation in fashion.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">The story</h4>
+                        </div>
+                        <div class="story_content">
+                            <p>In crafting the Encore clothing brand identity, I aimed to capture elegance and sophistication, inspired by the concept of 'encore'—a pursuit of excellence. Beginning with thorough research and client collaboration, I designed a logo with clean typography and a minimalist icon, symbolizing sophistication and enduring quality. A sophisticated color palette of deep navy, burgundy, and gold added luxury and cohesion.
+
+I extended the brand identity through meticulously designed assets like business cards and packaging, reflecting Encore's commitment to quality. Ensuring adaptability across digital and retail platforms, I established clear brand guidelines for consistency. The result is a refined brand identity that embodies timeless elegance and craftsmanship, poised to resonate with fashion enthusiasts globally.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio_approach">
+                        <div class="approach_title">
+                            <h4 class="title">OUR APPROACH</h4>
+                        </div>
+                        <div class="approach_content">
+                            <p>our approach is rooted in a deep understanding of client objectives and a passion for creative excellence. We begin by immersing ourselves in your brand's story, delving into its essence, values, and aspirations. This initial exploration allows us to grasp the unique identity that sets your brand apart.
+
+Next, we embark on a collaborative journey, where we combine your vision with our design expertise. We believe in open communication and transparency throughout the process, ensuring that every concept and iteration reflects your feedback and aligns perfectly with your goals.
+
+Creativity is at the heart of our approach. We strive to bring fresh perspectives and innovative ideas to the table, transforming concepts into captivating visual narratives. Whether it's crafting a distinctive logo, designing compelling packaging, or developing a comprehensive brand identity, we focus on delivering designs that not only resonate with your audience but also elevate your brand's presence in the market.
+
+Attention to detail is paramount in everything we do. From typography choices to color palettes, each design element is meticulously curated to evoke the right emotions and convey your brand's message effectively. We believe that every pixel counts, and we ensure that our designs are polished to perfection before they reach your audience.Let's embark on a journey together to bring your vision to life and make your brand stand out in a crowded marketplace.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_navigation">
+                    <div class="navigation_item prev-project">
+                        <a href="#" class="project">
+                            <i class="fal fa-arrow-left"></i>
+                            <div class="nav_project">
+                                <div class="label">Previous Project</div>
+                                <h3 class="title">Mazag Coffee</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="navigation_item next-project">
+                        <a href="#" class="project">
+                            <div class="nav_project">
+                                <div class="label">Next Project</div>
+                                <h3 class="title">Posters Design</h3>
+                            </div>
+                            <i class="fal fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Portfolio Popup -->
+        
+        <!-- start: Portfolio Popup -->
+        <div id="portfolio-wrapper4" class="popup_content_area zoom-anim-dialog mfp-hide">
+            <div class="popup_modal_img">
+                <img src="./assets/img/portfolio/posterss.png" alt="">
+            </div>
+
+            <div class="popup_modal_content">
+                <div class="portfolio_info">
+                    <div class="portfolio_info_text">
+                        <h2 class="title">Posters Design</h2>
+                        <div class="desc">
+                            <p>I bring cinematic narratives to life through captivating visuals and creative manipulation techniques. Each poster design is meticulously crafted to evoke intrigue, emotion, and anticipation, serving as a visual gateway into the world of the film.</p>
+                        </div>
+                        <a href="#" class="btn tj-btn-primary">live preview <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <div class="portfolio_info_items">
+                        <div class="info_item">
+                            <div class="key">Category</div>
+                            <div class="value">Manipulation</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Client</div>
+                            <div class="value">N/A</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Start Date</div>
+                            <div class="value">July 19, 2024</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key">Designer</div>
+                            <div class="value"><a href="#">qxandil</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_gallery owl-carousel">
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/a.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/Whispers Of Fate.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/Undefined Poster.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/fast11-Recovered2.png" alt="">
+                        </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/UNBROKEN PROJECTs.png" alt="">
+                        </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/THE CONJURING3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="portfolio_description">
+                    <h2 class="title">Project Description</h2>
+                    <div class="desc">
+                        <p>My approach to movie poster design blends artistic creativity with a deep understanding of storytelling and visual communication. I collaborate closely with filmmakers and studios to conceptualize and execute designs that not only reflect the film's themes and characters but also resonate with its target audience.
+
+The project began with extensive research into the brand's personality, target audience, and market positioning. Collaborative discussions with the client unearthed key insights that guided the creative direction—fusing elements of rebellion, sophistication, and contemporary edge.
+
+Central to the brand identity is the logo design, meticulously crafted to embody the essence of 'Encord Of Chaos.' It combines sleek typography with abstract elements that symbolize the brand's commitment to breaking norms and celebrating diversity. The color palette, bold and vibrant, reflects the brand's energy and eclectic spirit, appealing directly to its young, trendsetting demographic.
+
+Beyond the logo, I developed cohesive brand assets including typography styles, patterns, and visual elements that amplify the brand's narrative across various touchpoints. From clothing tags to digital marketing materials, each design element was strategically aligned to reinforce the brand's identity and captivate its audience.
+
+Throughout the project, I maintained a focus on versatility and scalability, ensuring the brand identity could adapt seamlessly to diverse applications and future growth. This included comprehensive guidelines that empower the client to maintain brand consistency and integrity across all communications.
+
+The result is a distinctive brand identity that not only embodies the rebellious spirit of 'Encord Of Chaos' but also empowers individuals to express themselves boldly through fashion. It has been a privilege to contribute to a brand that champions creativity, individuality, and the pursuit of chaos as a catalyst for innovation in fashion.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">The story</h4>
+                        </div>
+                        <div class="story_content">
+                            <p>I specialize in creating visually striking movie posters using photo manipulation techniques to capture the essence of each film. By blending various elements like character portraits, backgrounds, and textures in Adobe Photoshop, I craft cinematic visuals that evoke emotion and tell a compelling story. My designs focus on seamless integration of lighting, shadows, and composition, ensuring the poster reflects the mood and narrative of the film. With a passion for pushing creative boundaries, I enjoy transforming concepts into unique, attention-grabbing posters that captivate and intrigue audiences.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio_approach">
+                        <div class="approach_title">
+                            <h4 class="title">OUR APPROACH</h4>
+                        </div>
+                        <div class="approach_content">
+                            <p>we believe that a movie poster should do more than just inform—it should captivate and tell a story. Our approach combines creativity and technical skill to produce visually powerful posters that reflect the essence of each film. Using expert photo manipulation, we craft unique, dynamic designs that grab attention, evoke emotion, and spark curiosity, ensuring every poster becomes an unforgettable visual experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_navigation">
+                    <div class="navigation_item prev-project">
+                        <a href="#" class="project">
+                            <i class="fal fa-arrow-left"></i>
+                            <div class="nav_project">
+                                <div class="label">Previous Project</div>
+                                <h3 class="title">Rave</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="navigation_item next-project">
+                        <a href="#" class="project">
+                            <div class="nav_project">
+                                <div class="label">Next Project</div>
+                                <h3 class="title">ELVIVE</h3>
+                            </div>
+                            <i class="fal fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Portfolio Popup -->
+        
+        <!-- RESUME SECTION START -->
+        <section class="resume-section" id="resume-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section-header wow fadeInUp" data-wow-delay=".3s">
+                            <h2 class="section-title">My Experience</h2>
+                        </div>
+
+                        <div class="resume-widget">
+                            <div class="resume-item wow fadeInLeft" data-wow-delay=".4s">
+                                <div class="time">
+                                    2023 - Present
+                                </div>
+                                <h3 class="resume-title">Senior Graphic Designer</h3>
+                                <div class="institute">
+                                    Freelancing, Worldwide
+                                </div>
+                            </div>
+                            <div class="resume-item wow fadeInLeft" data-wow-delay=".5s">
+                                <div class="time">
+                                    2022 - 2023
+                                </div>
+                                <h3 class="resume-title">Freelance Graphic Designer</h3>
+                                <div class="institute">
+                                    Various Clients, Worldwide
+                                </div>
+                            </div>
+                            <div class="resume-item wow fadeInLeft" data-wow-delay=".6s">
+                                <div class="time">
+                                    2021 - 2022
+                                </div>
+                                <h3 class="resume-title">Freelance Graphic Designer</h3>
+                                <div class="institute">
+                                    Various Clients, Egypt
+                                </div>
+                            </div>
+                            <div class="resume-item wow fadeInLeft" data-wow-delay=".7s">
+                                <div class="time">
+                                    2020 - 2021
+                                </div>
+                                <h3 class="resume-title">Junior Graphics Designer</h3>
+                                <div class="institute">
+                                    Vofex Studio, Egypt
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="section-header wow fadeInUp" data-wow-delay=".4s">
+                            <h2 class="section-title">My Education</h2>
+                        </div>
+
+                        <div class="resume-widget">
+                            <div class="resume-item wow fadeInRight" data-wow-delay=".5s">
+                                <div class="time">
+                                    2021 - 2024
+                                </div>
+                                <h3 class="resume-title">Marketing of business</h3>
+                                <div class="institute">
+                                    Arab Open University University
+                                </div>
+                            </div>
+                            <div class="resume-item wow fadeInRight" data-wow-delay=".6s">
+                                <div class="time">
+                                    2020 - 2021
+                                </div>
+                                <h3 class="resume-title">Business Information System</h3>
+                                <div class="institute">
+                                    Russian University
+                                </div>
+                            </div>
+                            <div class="resume-item wow fadeInRight" data-wow-delay=".7s">
+                                <div class="time">
+                                    2019 - 2020
+                                </div>
+                                <h3 class="resume-title">Graphic Design Courses</h3>
+                                <div class="institute">
+                                    Udemy and Online Courses.
+                                </div>
+                            </div>
+                            <div class="resume-item wow fadeInRight" data-wow-delay=".8s">
+                                <div class="time">
+                                   >  - 2019
+                                </div>
+                                <h3 class="resume-title">Golf Language School</h3>
+                                <div class="institute">
+                                    Cairo, Egypt
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- RESUME SECTION END -->
+
+        <!-- SKILLS SECTION START -->
+        <section class="skills-section" id="skills-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center">
+                            <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">My Skills</h2>
+                            <p class=" wow fadeInUp" data-wow-delay=".4s">We put your ideas to collab with you with a lot of designs and vison which will take your project to the top and to know the market of your project </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="skills-widget d-flex flex-wrap justify-content-center align-items-center">
+                            <div class="skill-item wow fadeInUp" data-wow-delay=".3s">
+                                <div class="skill-inner">
+                                    <div class="icon-box">
+                                        <img src="assets/img/icons/photoshop.png" alt="">
+                                    </div>
+                                    <div class="number">92%</div>
+                                </div>
+                                <p>Photoshop</p>
+                            </div>
+                            <div class="skill-item wow fadeInUp" data-wow-delay=".4s">
+                                <div class="skill-inner">
+                                    <div class="icon-box">
+                                        <img src="assets/img/icons/illustrator.png" alt="">
+                                    </div>
+                                    <div class="number">89%</div>
+                                </div>
+                                <p>Adobe Illustrator</p>
+                            </div>
+                            <div class="skill-item wow fadeInUp" data-wow-delay=".5s">
+                                <div class="skill-inner">
+                                    <div class="icon-box">
+                                        <img src="assets/img/icons/premiere-pro.png" alt="">
+                                    </div>
+                                    <div class="number">80%</div>
+                                </div>
+                                <p>Adobe Premier</p>
+                            </div>
+                            <div class="skill-item wow fadeInUp" data-wow-delay=".6s">
+                                <div class="skill-inner">
+                                    <div class="icon-box">
+                                        <img src="assets/img/icons/indesign.png" alt="">
+                                    </div>
+                                    <div class="number">87%</div>
+                                </div>
+                                <p>Indesign</p>
+                            </div>
+                            <div class="skill-item wow fadeInUp" data-wow-delay=".7s">
+                                <div class="skill-inner">
+                                    <div class="icon-box">
+                                        <img src="assets/img/icons/figma.png" alt="">
+                                    </div>
+                                    <div class="number">89%</div>
+                                </div>
+                                <p>Figma</p>
+                            </div>
+                            <div class="skill-item wow fadeInUp" data-wow-delay=".8s">
+                                <div class="skill-inner">
+                                    <div class="icon-box">
+                                        <img src="assets/img/icons/after-effects (1).png" alt="">
+                                    </div>
+                                    <div class="number">93%</div>
+                                </div>
+                                <p>After Effects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SKILLS SECTION END -->
+
+        <!-- CONTACT SECTION START -->
+<section class="contact-section" id="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-7 order-2 order-md-1">
+                <div class="contact-form-box wow fadeInLeft" data-wow-delay=".3s">
+                    <div class="section-header">
+                        <h2 class="section-title">Let’s create something amazing together!</h2>
+                        <p>I specialize in creating visually stunning designs and bringing ideas to life. Let's collaborate and turn your vision into art!</p>
+                    </div>
+
+                    <div class="tj-contact-form">
+                        <form action="index.html">
+                            <div class="row gx-3">
+                                <div class="col-sm-6">
+                                    <div class="form_group">
+                                        <input type="text" name="fname" id="fname" placeholder="First name" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form_group">
+                                        <input type="text" name="lname" id="lname" placeholder="Last name" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form_group">
+                                        <input type="email" name="email" id="email" placeholder="Email address" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form_group">
+                                        <input type="tel" name="phone" id="phone" placeholder="Phone number" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form_group">
+                                        <select name="service" id="service" class="tj-nice-select">
+                                            <option value="" selected disabled>Choose Service</option>
+                                            <option value="branding">Branding Design</option>
+                                            <option value="web">Social Media Design</option>
+                                            <option value="uxui">Illustration</option>
+                                            <option value="app">Packaging & merchandising</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form_group">
+                                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form_btn">
+                                        <button type="submit" class="btn tj-btn-primary">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 offset-lg-1 col-md-5 d-flex flex-wrap align-items-center order-1 order-md-2">
+                <div class="contact-info-list">
+                    <ul class="ul-reset">
+                        <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight" data-wow-delay=".4s">
+                            <div class="icon-box">
+                                <i class="flaticon-phone-call"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Phone</p>
+                                <a href="tel:0123456789">+20 102 016 9791</a>
+                            </div>
+                        </li>
+                        <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight" data-wow-delay=".5s">
+                            <div class="icon-box">
+                                <i class="flaticon-mail-inbox-app"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Email</p>
+                                <a href="mailto:mail@mail.com">qxandilv@gmail.com</a>
+                            </div>
+                        </li>
+                        <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight" data-wow-delay=".6s">
+                            <div class="icon-box">
+                                <i class="flaticon-location"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Address</p>
+                                <a href="#">6th district, Villa 12, Obour City<br>B 14027, Cairo, Egypt</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CONTACT SECTION END -->
+
+    </main>
+
+    <!-- FOOTER AREA START -->
+    <footer class="tj-footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="footer-logo-box">
+                        <a href="#"><img src="assets/img/logo/logo1.png" alt=""></a>
+                    </div>
+                    <div class="footer-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#services-section">Services</a></li>
+                                <li><a href="#works-section">Works</a></li>
+                                <li><a href="#resume-section">Resume</a></li>
+                                <li><a href="#skills-section">Skills</a></li>
+                                <li><a href="#contact-section">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="copy-text">
+                        <p>&copy; 2024 All rights reserved by <a href="#" target="_blank">qxandil</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER AREA END -->
+
+
+    <!-- CSS here -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/backToTop.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/appear.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/one-page-nav.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+    <!-- Hire Me Modal (Hidden by Default) -->
+<div id="hireMeModal">
+    <div class="modal-content">
+        <span class="close">&times;</span> <!-- Close button -->
+        <h2>Hire Me</h2>
+        <p>Fill in your details, and I'll get back to you.</p>
+        
+        <!-- FORM STARTS HERE -->
+        <form id="hireMeForm" action="send-mail.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn tj-btn-primary">Send</button>
+        </form>
+        <!-- FORM ENDS HERE -->
+
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const modal = document.getElementById("hireMeModal");
+        const openModalBtn = document.getElementById("openModal");
+        const closeModal = document.querySelector(".close");
+    
+        // Ensure modal is hidden on page load
+        modal.style.display = "none";
+    
+        // Open Modal when clicking "Hire Me"
+        openModalBtn.addEventListener("click", function(event) {
+            event.preventDefault(); // Prevents page refresh
+            modal.style.display = "flex"; // Show modal
+            document.querySelector(".modal-content").classList.add("show");
+        });
+    
+        // Close Modal when clicking "X"
+        closeModal.addEventListener("click", function() {
+            modal.style.display = "none";
+            document.querySelector(".modal-content").classList.remove("show");
+        });
+    
+        // Close Modal when clicking outside the popup
+        window.addEventListener("click", function(event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+                document.querySelector(".modal-content").classList.remove("show");
+            }
+        });
+    });
+    </script>
+    
+</body>
+
+</html>
